@@ -29,9 +29,8 @@ Let's start by creating your own GitHub repository for a project:
 
 1. Sign up to GitHub at https://github.com/.
 2. Once you are logged in, click the **New** button next to **Repositories**.
-3. Create yourself a private repository by using the settings in the image below.
-
-![Creating a new repository](img/new_repo2.png)
+3. Create yourself a repository. NOTE: please also create a .gitignore file for Python as well. You can either set it as a public repository, or as a private repository.
+   - If you set your repository to private, you'll need to add me as a collaborator (in the Settings tab). My username is: minhnt141
 
 Next you will give PyCharm access to your repository.
 
@@ -67,4 +66,5 @@ You can explore the development branch and checkpoints on GitHub.
 Every time you create a new file, PyCharm will ask if you want the file to be included in version control. All source code,
 images and other valuable files should be stored on GitHub. On the other hand, configuration files and IDE-related data
 should be left out from version control. Also, any files containing passwords should not be saved to version control due to
+
 security reasons.
