@@ -1,5 +1,9 @@
-n = 5
-while n > 0:
-    print(n)
-    n = n - 1
-print('Blastoff!')
+astr = 'Bob'
+try:
+    print('Hello')
+    istr = int(astr)
+    print('There')
+except:
+    istr = -1
+
+print('Done', istr)
